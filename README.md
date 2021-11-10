@@ -13,6 +13,9 @@ Heaps - written in C
 linked list - written in C
 linked list stacks - written in C
 queues - written in C
+Stacks - written in C
+singly linked list - written in C 
+Avl trees - written in C
 sekh4500_a01 - written in Java
 sekh4500_a02 - written in Java
 sekh4500_a04 - written in Java
