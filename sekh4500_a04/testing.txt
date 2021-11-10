@@ -1,0 +1,77 @@
+Data String: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+  Tree Type: BST
+  Height: 26
+  Comparisons: 14,984,757
+
+  Tree Type: PopularityTree
+  Height: 11
+  Comparisons: 4,689,919
+
+  Tree Type: AVL
+  Height: 5
+  Comparisons: 5,085,500
+
+Tree with minimum comparisons: PopularityTree
+------------------------------
+Data String: MFTCJPWADHKNRUYBEIGLOQSVXZ
+
+  Tree Type: BST
+  Height: 5
+  Comparisons: 5,167,147
+
+  Tree Type: PopularityTree
+  Height: 8
+  Comparisons: 4,689,881
+
+  Tree Type: AVL
+  Height: 5
+  Comparisons: 5,167,147
+
+Tree with minimum comparisons: PopularityTree
+------------------------------
+Data String: ETAOINSHRDLUCMPFYWGBVKJXZQ
+
+  Tree Type: BST
+  Height: 8
+  Comparisons: 4,699,306
+
+  Tree Type: PopularityTree
+  Height: 10
+  Comparisons: 4,689,880
+
+  Tree Type: AVL
+  Height: 6
+  Comparisons: 4,603,953
+
+Tree with minimum comparisons: AVL
+------------------------------
+Character Table for Comparisons File
+
+Char    Count Percent
+   A   99,249    7.75
+   B   18,031    1.41
+   C   40,008    3.12
+   D   50,924    3.97
+   E  168,374   13.14
+   F   36,256    2.83
+   G   18,844    1.47
+   H   70,753    5.52
+   I   95,763    7.47
+   J    1,920    0.15
+   K    3,063    0.24
+   L   43,138    3.37
+   M   32,809    2.56
+   N   87,437    6.82
+   O   97,241    7.59
+   P   28,579    2.23
+   Q    1,741    0.14
+   R   81,236    6.34
+   S   86,167    6.73
+   T  122,887    9.59
+   U   37,289    2.91
+   V   14,967    1.17
+   W   19,734    1.54
+   X    4,197    0.33
+   Y   19,775    1.54
+   Z      822    0.06
