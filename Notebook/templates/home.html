@@ -1,0 +1,38 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content%}
+    <h1 align="center">Agenda/Notes</h1>
+
+    
+    <head>
+      <style>
+        body {
+          background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/yellow-notebook-paper-background-design-template-d7dfa26f8c8c759652e2521f0ecd24eb_screen.jpg?ts=1567891546');
+          background-repeat: no-repeat;
+          background-size: 100% 400%;
+        }
+        </style> 
+      </head>
+
+
+      <ul class="list-group list-group-flush" id="notes" >
+        {% for note in user.notes %}
+  
+        <li class="list-group-item" style="background-color:blanchedalmond">
+          {{ note.data }}
+          <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        {% endfor %}
+      </ul>
+
+ 
+
+
+    <form method="POST">
+      <textarea style="background-color:blanchedalmond" name="note" id="note" class="form-control"></textarea>
+
+      <br />
+      <div align="center">
+        <button style="background-color:red; border-color:blue; color:white" type="submit" class="btn btn-primary">Add Note</button>
+      </div>
+    </form>
+    {% endblock %}
